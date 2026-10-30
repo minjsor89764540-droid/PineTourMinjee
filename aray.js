@@ -228,17 +228,30 @@
 //   console.log(mur);
 // }
 //////dasgal4
-const names = ["Бат", "Сараа", "Ану"];
-const steps = [
-  [8000, 6500, 10000],
-  [12000, 9000, 7000],
-  [5000, 4000, 6000],
+//dom*massiw-20dasgal
+// const dayNames = ["Даваа", "Мягмар", "Лхагва", "Пүрэв", "Баасан"];
+// const schedule = [
+//   ["Математик", "Англи хэл", "Түүх"],
+//   ["Монгол хэл", "Физик"],
+//   ["Математик", "Биеийн тамир", "Хими", "Англи хэл"],
+//   ["Биологи", "Уран зохиол", "Математик"],
+//   ["Мэдээлэл зүй", "Хөгжим"],
+// ];
+// const day = document.getElementById("day");
+// const lessons = document.getElementById("lessons");
+// const count = document.getElementById("count ");
+// for (let i = 0; i < dayNames.length; i++) {}
+// function showDay(i) {
+//   day.textContent = `📅 ${dayNames[i]}`;
+//   lessons.textContent = `${schedule[i]}`;
+//   count.textContent = `${schedule[i].length} хичээл`;
+// }
+const districts = [
+  "Сүхбаатар",
+  "Чингэлтэй",
+  "Баянгол",
+  "Хан-Уул",
+  "Баянзүрх",
+  "Сонгинохайрхан",
 ];
-for (let i = 0; i < names.length; i++) {
-  let hamgiinIh = "";
-  for (let j = 0; j < steps.length; j++) {
-    if (names.length++) {
-      hamgiinIh = hamgiinIh + steps.length;
-    }
-  }
-}
+const fees = [3000, 3000, 4000, 5000, 4000, 6000];
